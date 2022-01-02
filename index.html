@@ -15,13 +15,30 @@
       integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
       crossorigin="anonymous"
     ></script>
+    <script
+      src="https://kit.fontawesome.com/a0852f6f3e.js"
+      crossorigin="anonymous"
+    ></script>
     <link rel="stylesheet" href="styles/portfolio.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Baloo+2:wght@400;500;600;700;800&family=Comforter+Brush&family=Josefin+Slab:ital@0;1&display=swap"
+      rel="stylesheet"
+    />
     <title>Responsive Lesson 5: SetUp Challenge</title>
   </head>
   <header>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <nav
+      class="navbar navbar-expand-lg navbar-dark text-uppercase fw-bold"
+      style="background-color: #2a5f68"
+    >
       <div class="container-fluid">
-        <a class="navbar-brand" href="index.html">Samantha Yocius</a>
+        <a class="navbar-brand" href="index.html"
+          ><i class="fas fa-user-astronaut"></i> Samantha Yocius</a
+        >
         <button
           class="navbar-toggler"
           type="button"
@@ -35,16 +52,18 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav">
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            <li class="nav-item text-capitalize">
+              <a class="nav-link active" aria-current="page" href="index.html"
+                >Home</a
+              >
             </li>
-            <li class="nav-item">
+            <li class="nav-item text-capitalize">
               <a class="nav-link" href="programming.html">My Programming</a>
             </li>
-            <li class="nav-item">
+            <li class="nav-item text-capitalize">
               <a class="nav-link" href="photography.html">My Photography</a>
             </li>
-            <li class="nav-item">
+            <li class="nav-item text-capitalize">
               <a class="nav-link" href="contact.html">Connection</a>
             </li>
           </ul>
@@ -53,10 +72,14 @@
     </nav>
   </header>
   <body>
-    <h1>Welcome</h1>
-    <div class="container text-center">
-      <div class="webDev row">
-        <h2>Let's talk about my <a href="programming.html"> Web Development...</a></h2>
+    <div class="hero">
+      <h1>Welcome</h1>
+    </div>
+    <div class="container">
+      <div class="webDev row pt-4">
+        <h2>
+          Let's talk about my <a href="programming.html"> Web Development...</a>
+        </h2>
         <div class="images col p-2 row row-cols-3">
           <img
             src="images/shadowOfMoonlight.png"
@@ -105,8 +128,8 @@
       </div>
     </div>
     <div class="container">
-      <div class="photography row">
-        <h2 class="text-center">
+      <div class="photography row pt-4">
+        <h2>
           Let's talk about my
           <a href="photography.html"> Photography...</a>
         </h2>
@@ -144,6 +167,6 @@
         </div>
       </div>
     </div>
-    <a href="contact.html" class="text-center">Let's Connect</a>
+    <a href="contact.html" class="btn btn-primary">Let's Connect</a>
   </body>
 </html>

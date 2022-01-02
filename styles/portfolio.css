@@ -1,8 +1,38 @@
+:root {
+  --branding-color: #2a5f68;
+  --font: "Amatic SC", cursive;
+  --branding-font: "Josefin Slab", serif;
+}
+
 h1 {
-  color: blue;
+  font-family: "Amatic SC", cursive;
+  font-weight: bold;
+}
+
+h2 {
+  color: var(--branding-color);
+  font-family: var(--branding-font);
 }
 
 img {
-    display: flexbox;
-    
+  display: flexbox;
+}
+
+.hero {
+  background-color: rgb(237, 251, 253);
+  padding: 7px;
+  font-family: var(--font);
+  font-size: 21px;
+  color: var(--branding-color);
+}
+
+.navbar {
+  font-family: var(--font);
+  text-decoration: uppercase;
+  font-kerning: none;
+}
+
+.img,
+a {
+  border-radius: 50px;
 }
