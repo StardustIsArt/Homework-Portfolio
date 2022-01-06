@@ -27,12 +27,18 @@ img {
 }
 
 .navbar {
-  font-family: var(--font);
+  font-family: "Gloria Hallelujah", cursive;
   text-decoration: uppercase;
-  font-kerning: none;
+  font-kerning: normal;
 }
 
 .img,
 a {
   border-radius: 50px;
+}
+
+.btn {
+  font-family: "Gloria Hallelujah", cursive;
+  text-decoration: uppercase;
+  padding-left: 0 auto;
 }
