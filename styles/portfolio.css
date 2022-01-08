@@ -32,6 +32,11 @@ img {
   font-kerning: normal;
 }
 
+.webDev {
+    max-width: 670px;
+    
+}
+
 .img,
 a {
   border-radius: 50px;
@@ -41,4 +46,9 @@ a {
   font-family: "Gloria Hallelujah", cursive;
   text-decoration: uppercase;
   padding-left: 0 auto;
+}
+
+.project-links {
+  text-decoration: none;
+  color: var(--branding-color);
 }
