@@ -2,6 +2,7 @@
   --branding-color: #2a5f68;
   --font: "Amatic SC", cursive;
   --branding-font: "Josefin Slab", serif;
+  --second-branding-color: rgb(237, 251, 253);
 }
 
 h1 {
@@ -19,7 +20,7 @@ img {
 }
 
 .hero {
-  background-color: rgb(237, 251, 253);
+  background-color: var(--second-branding-color);
   padding: 7px;
   font-family: var(--font);
   font-size: 21px;
@@ -33,9 +34,14 @@ img {
 }
 
 .webDev {
-  max-width: 768px;
   display: flex;
   justify-content: center;
+}
+
+.card {
+  background-color: var(--second-branding-color);
+  border-color: var(--branding-color);
+  font: var(--branding-font);
 }
 
 .photography {
@@ -52,10 +58,4 @@ a {
   font-family: "Gloria Hallelujah", cursive;
   color: var(--branding-color);
   border: 1px solid var(--branding-color);
-}
-
-
-.project-links {
-  text-decoration: none;
-  color: var(--branding-color);
 }
