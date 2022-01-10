@@ -28,6 +28,7 @@ img {
   font-family: var(--font);
   font-size: 21px;
   color: var(--branding-color);
+  text-align: center;
 }
 
 .navbar {
@@ -68,22 +69,36 @@ a {
   border: 1px solid var(--branding-color);
 }
 
-.about-section h1 {
+.content-container h1 {
   font-size: 64px;
   line-height: 80px;
 }
 
-.about-section p {
+.content-container p {
   font-size: 18px;
   font-family: var(--branding-font);
 }
 
-about-section-content {
+content {
   padding: 7px;
+}
+
+body {
+  background-color: var(--second-branding-color);
 }
 
 .sami-about-me {
   border: 7px solid var(--branding-color);
   border-radius: 15px;
   height: auto;
+}
+
+.photography-font {
+    font-size: 45px;
+}
+
+@media (min-width: 576px) {
+  img {
+    max-width: 768px;
+  }
 }
