@@ -11,6 +11,7 @@ h3 {
   font-weight: bold;
   color: var(--branding-color);
   font-size: 34px;
+  display: inline-block;
 }
 
 h2 {
@@ -94,7 +95,12 @@ body {
 }
 
 .photography-font {
-    font-size: 45px;
+  font-size: 45px;
+}
+
+.far {
+  font-size: 35px;
+  color: var(--branding-color);
 }
 
 @media (min-width: 576px) {
