@@ -103,6 +103,36 @@ body {
   color: var(--branding-color);
 }
 
+footer {
+  margin: 60px 0;
+}
+
+footer .email-link {
+  text-decoration: none;
+  color: black;
+  font-size: 24px;
+  text-align: center;
+}
+
+footer .email-link:hover {
+  color: var(--branding-color);
+}
+
+footer .social-links a {
+  color: var(--branding-color);
+  text-decoration: none;
+  font-size: 22px;
+  background: #ffff;
+  border-radius: 45%;
+  padding: 10px 15px;
+  transition: all 150ms ease-in-out;
+}
+
+footer .social-links a:hover {
+  color: #ffff;
+  background-color: var(--branding-color);
+}
+
 @media (min-width: 576px) {
   img {
     max-width: 768px;
