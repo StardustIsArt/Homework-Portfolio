@@ -19,9 +19,10 @@ h2 {
   font-family: var(--branding-font);
 }
 
-h4, p {
-    font-family: var(--branding-font);
-    font-weight: bolder;
+h4,
+p {
+  font-family: var(--branding-font);
+  font-weight: bolder;
 }
 
 img {
@@ -78,8 +79,8 @@ a {
 }
 
 .btn-branding:hover {
-background: var(--branding-color);
-color: #fff;
+  background: var(--branding-color);
+  color: #fff;
 }
 
 .content-container h1 {
